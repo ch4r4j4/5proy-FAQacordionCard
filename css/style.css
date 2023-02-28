@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%))
+}
+.main-container{
+    max-width: 57rem;
+    width: 90%;
+    display: flex;
+    min-height: 42rem;
+    overflow: hidden;
+}
+.img-section{
+    width: 50%;
+    height: 25%;
+}
+.question-section{
+}
