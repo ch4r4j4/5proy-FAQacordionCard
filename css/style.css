@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+:root{
+    --clr-darkdesatured: hsl(238, 29%, 16%);
+    --clr-softred: hsl(14, 88%, 65%);
+    --clr-vdarkgryblu: hsl(237, 12%, 33%);
+    --clr-darkgrayblu: hsl(240, 6%, 50%);
+}
 *{
     margin: 0;
     padding: 0;
@@ -9,6 +16,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 .main-container{
     background-color: white;
@@ -38,10 +46,13 @@ body{
 }
 .title{
     margin-bottom:1.7rem ;
+    font-weight: 700 bold;
+    color: var(--clr-darkdesatured);
 }
 .question{
     display: flex;
     justify-content: space-between;
+    color: var(--clr-vdarkgryblu);
 }
 .signal{
     height: 1.5rem;
@@ -52,4 +63,5 @@ body{
 }
 .answer{
     display: none;
+    color: var(--clr-darkgrayblu);
 }
