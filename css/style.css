@@ -36,6 +36,11 @@ body{
     box-sizing: border-box;
     margin-right: 2rem;
 }
+.i-wmn-desk{
+    position: relative;
+    top: 5rem;
+    left: -5rem;
+}
 .question-section{
     width: 50%;
     padding: 4.7rem 6.6rem 4.7rem 0;
