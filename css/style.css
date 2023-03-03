@@ -43,6 +43,9 @@ body{
     top: 5rem;
     left: -5.7rem;
 }
+.img-woman-mobile{
+    display: none;
+}
 .container-img{
     width: 100%;
     height: 100%;
@@ -90,7 +93,24 @@ hr{
 
 /*media queries*/
 @media (max-width: 960px){
-
+    .main-container{
+        flex-direction: column;
+        width: 70%;
+        min-width: 22rem;
+    }
+    .img-section{
+        width: 100%;
+        height: 10rem;
+        margin-right: 0;
+        background-size: 10rem;
+        background-position: bottom;
+    }
+    .img-woman-desk{
+        display: none;
+    }
+    .question-section{
+        width: 100%;
+    }
 }
 @media (max-width: 575px){
     
