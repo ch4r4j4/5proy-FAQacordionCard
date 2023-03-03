@@ -87,3 +87,11 @@ hr{
     border-style: ridge;
     border-width: 0.7px;
 }
+
+/*media queries*/
+@media (max-width: 960px){
+
+}
+@media (max-width: 575px){
+    
+}
