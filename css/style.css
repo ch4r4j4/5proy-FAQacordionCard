@@ -10,7 +10,7 @@
     padding: 0;
 }
 body{
-    height: 100vh;
+    height: auto;
     width: 100%;
     background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
     display: flex;
@@ -19,6 +19,7 @@ body{
     font-family: 'Kumbh Sans', sans-serif;
 }
 .main-container{
+    margin: 2rem 0;
     background-color: white;
     max-width: 58rem;
     width: 90%;
@@ -64,9 +65,14 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap:1rem;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 .title{
-    margin-bottom:1.7rem ;
     font-weight: 700 bold;
     color: var(--clr-darkdesatured);
 }
