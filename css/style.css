@@ -92,6 +92,11 @@ body{
     display: none;
     color: var(--clr-darkgrayblu);
 }
+
+.answer.active{
+    display: block;
+}
+
 hr{
     border-style: ridge;
     border-width: 0.7px;
