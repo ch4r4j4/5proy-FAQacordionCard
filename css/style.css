@@ -10,10 +10,9 @@
     padding: 0;
 }
 body{
-    height: 100vh;
+    height: 50rem;
     width: 100%;
-    background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
-    background-size: cover;
+    background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%)) no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +25,6 @@ body{
     max-width: 58rem;
     width: 90%;
     display: flex;
-    min-height: 32rem;
     height: auto;
     overflow: visible;
     border-radius: 1.67rem;
@@ -127,6 +125,7 @@ hr{
         min-width: 22rem;
         margin: 0.75rem;
         height: auto;
+
     }
     .img-section{
         width: 100%;
