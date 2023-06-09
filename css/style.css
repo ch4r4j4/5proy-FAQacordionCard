@@ -82,6 +82,10 @@ body{
     justify-content: space-between;
     color: var(--clr-vdarkgryblu);
 }
+.question.active{
+    font-weight: 700;
+}
+
 .signal{
     height: 1.5rem;
     width: 1.5rem;
