@@ -1,4 +1,3 @@
-/// tengo que revisar l del primer dia de github 50 days y agreggar las funcionalidades a github
 const respuestas = document.querySelectorAll('.item');
 
 respuestas.forEach(function(item){
@@ -6,13 +5,14 @@ respuestas.forEach(function(item){
         const outputAnswer = item.querySelector(".answer");
         const question = item.querySelector(".question");
         const arrow = item.querySelector(".signal");
-        removeActiveClasses();
-        outputAnswer.classList.add("active");
+        //removeActiveClasses(); 
+        outputAnswer.classList.toggle("active");
         question.classList.toggle("active");
         arrow.classList.toggle("rotate");
     })
 });
-
+//solo pruebas
+/*
 function removeActiveClasses(){
     respuestas.forEach(function(item){
         const salidaAnswer = item.querySelector(".answer");
@@ -23,5 +23,4 @@ function removeActiveClasses(){
         pregunta.classList.remove("active");
         flecha.classList.remove("rotate");
     })
-}
-///podemos solucionarlo con un if averiguar como utilizar esta condicion;
+}*/
