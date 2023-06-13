@@ -10,14 +10,14 @@
     padding: 0;
 }
 body{
-    height: 50rem;
     width: 100%;
-    background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%)) no-repeat;
+    background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%)) no-repeat fixed;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'Kumbh Sans', sans-serif;
-    padding: 70px  0;
+    padding: 5rem  0 0 0;
 }
 .main-container{
     margin: 2rem 0;
@@ -32,10 +32,10 @@ body{
 .img-section{
     width: 42%;
     background-image: url(../images/bg-pattern-desktop.svg);
-    background-size: 230%;
-    background-position:right,top;
+    background-attachment: scroll;
+    background-size: 50rem;
+    background-position:right,top ;
     background-repeat: no-repeat;
-    box-sizing: border-box;
     margin-right: 4.8rem;
     overflow: visible;
 }
@@ -53,7 +53,7 @@ body{
     overflow: hidden;
 }
 .img-box{
-    position: relative;
+    position: relative;   
     top: -21.5rem;
     right: 5.7rem;
     filter: drop-shadow(0 0.7rem 3rem var(--clr-darkdesatured));
@@ -159,7 +159,4 @@ hr{
     .img-box{
         display: none;
     }
-}
-@media (max-width: 575px){
-    
 }
