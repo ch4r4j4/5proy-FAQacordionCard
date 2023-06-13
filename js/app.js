@@ -11,16 +11,3 @@ respuestas.forEach(function(item){
         arrow.classList.toggle("rotate");
     })
 });
-//solo pruebas
-/*
-function removeActiveClasses(){
-    respuestas.forEach(function(item){
-        const salidaAnswer = item.querySelector(".answer");
-        const pregunta = item.querySelector(".question");
-        const flecha = item.querySelector(".signal");
-
-        salidaAnswer.classList.remove("active");
-        pregunta.classList.remove("active");
-        flecha.classList.remove("rotate");
-    })
-}*/
